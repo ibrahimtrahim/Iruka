@@ -1,0 +1,43 @@
+.hero {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(61, 155, 124, 0.1)), url(/images/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 650.4px;
+    margin-bottom: 60px;
+    @include breakpoint-up(large){
+      margin-bottom: 120px;
+  }
+
+    &__text {
+        text-align: center;
+        padding-top: 25%;
+        @include breakpoint-up(large){
+            max-width: 932px;
+            text-align: left;
+            padding-left: 140px;
+            padding-top: 10%;
+        }
+      }
+      h1 {
+        font-weight: 500;
+        font-size: 2.31rem;
+        line-height: 1.15;
+        color: $white;
+        margin-bottom: 1.5rem;
+        @include breakpoint-up(large){
+          font-size: 4rem;
+          font-weight: 600;
+          line-height: 4.4rem;
+        }
+      }
+
+      p {
+        color: $veryLight;
+        line-height: 1.5;
+        margin-bottom: 2.25rem;
+        @include breakpoint-up(large){
+          max-width: 600px;
+          margin-bottom: 3.5rem;
+        }
+      }
+}

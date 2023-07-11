@@ -1,0 +1,80 @@
+.clients {
+    .dragging {
+        cursor: grab;
+        user-select: none;
+    }
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(/images/bg-clients.png);
+    @include breakpoint-up(large){
+        padding: 140px 120px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 0;
+        &::after{
+            left: calc(50% - 20px);
+        }
+        &::before{
+            left: calc(50% - 20px);
+        }
+    }
+    &__parag {
+        text-align: center;
+        margin: 0 auto;
+        @include breakpoint-up(medium){
+            width: 570px;
+        }
+    }
+    &__flex {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc(100%);
+        overflow: hidden;
+        @include breakpoint-up(medium){
+            grid-auto-columns: calc((100% / 2));
+        }
+        @include breakpoint-up(large){
+            grid-auto-columns: calc((100% / 3));
+        }
+    }
+    &__profile {
+        
+        position: relative;
+        background-color: $veryLight;
+        width: 380px;
+        text-align: center;
+        margin-top: 110px;
+        margin-bottom: 50px;
+        padding: 45px 40px 20px;
+        @include breakpoint-up(medium){
+            width: 337px;
+        }
+        @include breakpoint-up(large){
+            width: 380px;
+        }
+        img {
+            margin: 0;
+            position: absolute;
+            top: -76px;
+            left: 116px;
+        }
+        h4 {
+            margin: 0;
+        }
+        p {
+            margin-top: 4px;
+        }
+    }
+    &__point {
+        display: flex;
+        justify-content: center;
+        span {
+            width: 10px;
+            height: 10px;
+            background-color: $gray;
+            border-radius: 50%;
+            margin: 5px;
+        }
+    }
+}

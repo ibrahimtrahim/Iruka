@@ -1,0 +1,53 @@
+.location {
+    @include breakpoint-up(large){
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 0;
+        background-color: $ghostWhite;
+        margin-top: 60px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__video {
+             flex: 2;
+             order: 1;
+             img {
+                width: 100%;
+             }
+    }
+    &__text{
+
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @include breakpoint-up(medium){
+            text-align: left;
+        }
+        @include breakpoint-up(large){
+            flex: 2;
+            order: 2;
+            margin-left: 40px;
+        }
+
+        h2 {
+            margin-top: 0;
+            width: 350px;
+        }
+    }
+    &__check {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        p {
+            font-size: 14px;
+            margin: 0 0 10px 0;
+        }
+    }
+    i{
+        color: $green;
+        margin-right: 10px;
+    }
+}

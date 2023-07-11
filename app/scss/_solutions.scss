@@ -1,0 +1,70 @@
+.solutions {
+    @include breakpoint-up(large){
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 0;
+        background-color: $ghostWhite;
+        margin-top: 80px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__video {
+             flex: 2;
+             order: 1;
+             video {
+                width: 100%;
+             }
+    }
+    &__text{
+
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @include breakpoint-up(medium){
+            text-align: left;
+        }
+        @include breakpoint-up(large){
+            flex: 2;
+            order: 2;
+            margin-left: 40px;
+        }
+
+        h2 {
+            margin-top: 0;
+            width: 350px;
+        }
+    }
+    &__ctn {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        @include breakpoint-up(medium){
+            justify-content: left;
+        }
+        a {
+            color: $orange;
+            font-size: 0,875rem;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            img {
+                width: 0,875rem;
+                height: 0,875rem;
+                background: $cyanBlue;
+                border-radius: 50%;
+                margin-left: 15px;
+                margin-right: 10px;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    }
+    &__cta{
+        background: $green;
+        margin-right: 30px;
+    }
+}

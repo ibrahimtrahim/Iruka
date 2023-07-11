@@ -1,0 +1,30 @@
+.heroab{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(61, 155, 124, 0.1)), url(/images/aboutbg.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    @include breakpoint-up(large){
+      margin-bottom: 120px;
+  }
+
+    &__text {
+        text-align: center;
+
+        @include breakpoint-up(large){
+            max-width: 932px;
+            text-align: left;
+            padding-left: 140px;
+           
+        }
+      }
+      h1 {
+        color: $white;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 4.4rem;
+        
+      }
+}

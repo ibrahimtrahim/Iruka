@@ -1,0 +1,57 @@
+.header {
+    nav {
+        padding: 26px;
+        @include breakpoint-up(large){
+            padding-left: 140px;
+            padding-right: 140px;
+        }
+    }
+
+    &__logo {
+        font-size: 1.625rem;
+        font-weight: 600;
+        color: $black;
+        > span {
+            color: $blue;
+        }
+
+    }
+    &__menu{
+
+        > span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $black;
+
+            &:not(:last-child){
+                margin-bottom: 3px;
+            }
+        }
+
+    }
+    &__links {
+        a {
+            font-size: $font-sm;
+            font-weight: 600;
+            color: $black;
+            transition: color 200ms ease-in-out;
+
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+
+            &:hover {
+                color: $blue;
+            }
+            &:active {
+                color: $blue;
+            }
+        }
+    }
+    &__search {
+        img {
+            margin-right: 40px;
+        }
+    }
+}
