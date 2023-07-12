@@ -186,8 +186,8 @@ button, .button {
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(/images/hero.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(/images/hero.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(../images/hero.PNG);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(../images/hero.PNG);
   background-size: cover;
   background-position: center;
   height: 650.4px;
@@ -500,7 +500,7 @@ button, .button {
 }
 
 .facts__container {
-  background-image: url(/images/Funfacts.png);
+  background-image: url(../images/Funfacts.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -961,8 +961,8 @@ button, .button {
 
 .freequote {
   margin-top: 60px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(61, 155, 124, 0.4))), url(/images/freequotesection.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(61, 155, 124, 0.4)), url(/images/freequotesection.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(61, 155, 124, 0.4))), url(../images/freequotesection.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(61, 155, 124, 0.4)), url(../images/freequotesection.png);
   background-size: cover;
   background-position: center;
   height: -webkit-fit-content;
@@ -1166,7 +1166,7 @@ button, .button {
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(/images/bg-clients.png);
+  background-image: url(../images/bg-clients.png);
 }
 
 .clients .dragging {
@@ -1512,8 +1512,8 @@ button, .button {
 }
 
 .heroab {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(/images/aboutbg.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(/images/aboutbg.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(../images/aboutbg.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(../images/aboutbg.png);
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
@@ -1873,8 +1873,8 @@ button, .button {
 }
 
 .heroteam {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(/images/aboutbg.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(/images/aboutbg.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(../images/aboutbg.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(../images/aboutbg.png);
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
@@ -2081,8 +2081,8 @@ button, .button {
 }
 
 .heroteam {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(/images/locationsbg.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(/images/locationsbg.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(../images/locationsbg.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(../images/locationsbg.png);
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
@@ -2201,8 +2201,8 @@ button, .button {
 }
 
 .herotruck {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(/images/truckhero.png);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(/images/truckhero.png);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(61, 155, 124, 0.1))), url(../images/truckhero.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(61, 155, 124, 0.1)), url(../images/truckhero.png);
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
