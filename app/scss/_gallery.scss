@@ -1,0 +1,43 @@
+.gallery {
+    margin-top: 60px;
+    @include breakpoint-up(large){
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    h2 {
+        text-align: center;
+    }
+    h2::after{
+        left: calc(50% - 20px);
+    }
+    h2::before{
+        left: calc(50% - 20px);
+    }
+    &__parag {
+        text-align: center;
+        margin: 0 auto;
+        @include breakpoint-up(large){
+            width: 570px;
+        }
+    }
+    &__grid {
+        column-count: 1;
+        --webkit-column-count: 1;
+        --moz-column-count: 1;
+        padding: 4rem;
+        @include breakpoint-up(medium){
+            column-count: 2;
+            --webkit-column-count: 2;
+            --moz-column-count: 2;
+        }
+        @include breakpoint-up(large){
+            column-count: 3;
+            --webkit-column-count: 3;
+            --moz-column-count: 3;
+        }
+    }
+    .image img {
+        height: auto;
+        width: 100%;
+      }
+}
